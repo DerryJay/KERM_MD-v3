@@ -14,50 +14,50 @@ global.doc5 = 'application/pdf'
 global.doc6 = 'application/vnd.android.package-archive'
 
 //owmner v card
-global.owner = ['94758512807'] //ur owner number
-global.ownername = "Gayantha Official" //ur owner name
-global.ytname = "YT: HELA CLOUD" //ur yt chanel name
-global.socialm = "GitHub: tharushimd" //ur github or insta name
-global.location = "Sri Lanka, North Central Provice, Kekirawa" //ur location
+global.owner = ['237656520674'] 
+global.ownername = "☞⌜ KG TECH⌝☜" 
+global.ytname = "YT: Kermhacktools" 
+global.socialm = "GitHub: Kgtech-cmr" 
+global.location = "Cameroon , Douala" 
 
 //bot bomdy 
-global.ownernomer = "94758512807" //ur number
-global.premium = ['94758512807'] //ur premium number
-global.botname = 'BLACK DRAGON' //ur bot name
-global.linkz = "https://chat.whatsapp.com/DqqTyq7MjfxG1CGzE6qszz" //your theme url which will be displayed on whatsapp
-global.websitex = "https://www.helacloud.ga" //ur website to be displayed
-global.botscript = 'https://github.com/tharushimd/Black-Dragon' //script link
-global.themeemoji = "❤️" //ur theme emoji
-global.packname = "Sticker By Gayantha Prabod" //ur sticker watermark packname
-global.author = "Gayantha Official" //ur sticker watermark author
-global.wm = "𝗠𝗥 𝗟𝗨𝗖𝗜𝗙𝗘𝗥 𝗜𝗡𝗖" //ur watermark
+global.ownernomer = "237656520674" 
+global.premium = ['237650564445'] 
+global.botname = '✫𝕂𝔼ℝ𝕄 𝕄𝔻 𝕍3✫' 
+global.linkz = "https://chat.whatsapp.com/FpxvVBFOozA6IhNxIWhwFw" 
+global.websitex = "https://www.helacloud.ga" 
+global.botscript = 'https://github.com/Kgtech-cmr/KERM_MD-v3' 
+global.themeemoji = "🥷🏽" 
+global.packname = "BRAND PRODUCT OF ☞⌜ KG TECH⌝☜" 
+global.author = "☞⌜ KG TECH⌝☜" 
+global.wm = "☞⌜ KG TECH⌝☜" 
 
 // Other
-global.sessionName = 'session'
-global.prefa = ['','!','.','#','&']
+global.sessionName = 'put your session here'
+global.prefa = ['null','!','.','#','&']
 global.sp = ''
 
 //messages
 global.mess = {
-    success: 'Here you go!',
-    admin: 'This feature could be used by admins only!',
-    botAdmin: 'Bot Must Be Admin First!',
+    success: 'Yess, c est bon! 😆',
+    admin: 'Uniquement pour les administrateurs aka, tu veux quoi ?!',
+    botAdmin: 'Mettez moi d abord administrateur!',
     premime: 'Premium Special Features If You Want to Register Type Rent',
-    owner: 'This feature could be used by owner only',
-    group: 'Features Used Only For Groups!',
-    private: 'Features Used Only For Private Chat!',
-    bot: 'This feature could be used by bot only',
-    wait: 'In process...',
-    linkm: 'Where is the link?',
-    endLimit: 'Your Daily Limit Has Expired, The Limit Will Be Reset Every 12 Hours',
-    nsfw: 'The nsfw feature has not been activated, please contact the admin to activate',
+    owner: 'Uniquement pour mon Owner bro!',
+    group: 'Seulement dans les groupes bro!',
+    private: 'Seulement dans les Dm bro!',
+    bot: 'Seulement pour le bot bro!',
+    wait: 'Wait un peu...',
+    linkm: 'Le lien est maintenant où donc?',
+    endLimit: 'Tu as atteint ta limite du jour, Ça se réinitialise chaque 12 heures donc attends.',
+    nsfw: 'Le nsfw n est pas activé ici , demande à ladministrateur d activer.',
 }
 
 //media target
-global.thum = fs.readFileSync("./DragonMedia/theme/cheemspic.jpg") //ur thumb pic
-global.log0 = fs.readFileSync("./DragonMedia/theme/cheemspic.jpg") //ur logo pic
-global.err4r = fs.readFileSync("./DragonMedia/theme/cheemspic.jpg") //ur error pic
-global.thumb = fs.readFileSync("./DragonMedia/theme/cheemspic.jpg") //ur thumb pic
+global.thum = fs.readFileSync("./KermMedia/theme/cheemspic.jpg") //ur thumb pic
+global.log0 = fs.readFileSync("./KermMedia/theme/cheemspic.jpg") //ur logo pic
+global.err4r = fs.readFileSync("./KermMedia/theme/cheemspic.jpg") //ur error pic
+global.thumb = fs.readFileSync("./KermMedia/theme/cheemspic.jpg") //ur thumb pic
 
 //menu image maker
 global.flaming = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
