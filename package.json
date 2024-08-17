@@ -1,5 +1,5 @@
 {
-  "name": "Black-dragon",
+  "name": "kerm-md-v3",
   "version": "6.0.0",
   "description": "Automated whatsapp md bot created using nodejs and baileys lib",
   "type": "commonjs",
@@ -17,7 +17,7 @@
     "multi-device",
     "dragon-bot-inc"
   ],
-  "author": "Nimesh-official",
+  "author": "kg tech",
   "license": "AGPL-3",
   "dependencies": {
     "@adiwajshing/baileys": "^4.4.0",
@@ -82,10 +82,10 @@
     "src": "src"
   },
   "devDependencies": {},
-  "repository": "git+https://github.com/malikabhishek1/Black-Dragon.git",
+  "repository": "git+https://github.com/Kgtech-cmr/KERM_MD-v3.git",
   "bugs": {
-    "url": "https://github.com/malikabhishek1/Black-Dragon/issues"
+    "url": "https://github.com/Kgtech-cmr/KERM_MD-v3/issues"
   },
-  "homepage": "https://github.com/malikabhishek1/Black-Dragon/#readme",
+  "homepage": "https://github.com/Kgtech-cmr/KERM_MD-v3/#readme",
   "main": "index.js"
 }
