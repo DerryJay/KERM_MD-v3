@@ -1,14 +1,28 @@
-FROM fedora:37
+FROM node:lts-buster
 
-RUN sudo dnf -y update &&\
-    sudo dnf install -y https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm &&\
-    sudo dnf install -y git ffmpeg ImageMagick nodejs libwebp yarnpkg &&\
-    sudo dnf clean all -y
+RUN apt-get update && \
+  apt-get install -y \
+  ffmpeg \
+  imagemagick \
+  webp && \
+  apt-get upgrade -y && \
+  npm i pm2 -g && \
+  rm -rf /var/lib/apt/lists/*
+  
+RUN git clone https://github.com/DeeCeeXxx/Queen_Anita-V2  /root/DeeCeeXxx
+WORKDIR /root/DeeCeeXxx/
 
-WORKDIR /nezuko
+# Clear npm cache and remove node_modules directories
+RUN npm cache clean --force
+RUN rm -rf ~/node_modules 
 
-COPY . /nezuko
+COPY package.json .
 
-RUN yarn
+RUN npm install pm2 -g
+RUN npm install --legacy-peer-deps
 
-CMD ["yarn", "start"]
+COPY . .
+
+EXPOSE 3000
+
+CMD ["npm","start" ]
