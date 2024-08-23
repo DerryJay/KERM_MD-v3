@@ -14,23 +14,23 @@ global.doc5 = 'application/pdf'
 global.doc6 = 'application/vnd.android.package-archive'
 
 //owmner v card
-global.owner = ['237656520674'] 
-global.ownername = "☞⌜ KG TECH⌝☜" 
+global.owner = ['2349019406102'] 
+global.ownername = "☞⌜ JAY⌝☜" 
 global.ytname = "YT: Kermhacktools" 
 global.socialm = "GitHub: Kgtech-cmr" 
-global.location = "Cameroon , Douala" 
+global.location = "Nigeria , Enugu" 
 
 //bot bomdy 
-global.ownernomer = "237656520674" 
-global.premium = ['237650564445'] 
+global.ownernomer = "2349019406102" 
+global.premium = ['2349019406102'] 
 global.botname = '✫𝕂𝔼ℝ𝕄 𝕄𝔻 𝕍3✫' 
-global.linkz = "https://chat.whatsapp.com/FpxvVBFOozA6IhNxIWhwFw" 
+global.linkz = "https://chat.whatsapp.com/LNFrAyp7ZntFYDtiPI3H0a" 
 global.websitex = "https://www.helacloud.ga" 
-global.botscript = 'https://github.com/Kgtech-cmr/KERM_MD-v3' 
+global.botscript = 'https://github.com/DerryJay/KERM_MD-v3' 
 global.themeemoji = "🥷🏽" 
-global.packname = "BRAND PRODUCT OF ☞⌜ KG TECH⌝☜" 
-global.author = "☞⌜ KG TECH⌝☜" 
-global.wm = "☞⌜ KG TECH⌝☜" 
+global.packname = "BRAND PRODUCT OF ☞⌜ JAY TECH⌝☜" 
+global.author = "☞⌜ JAY⌝☜" 
+global.wm = "☞⌜ JAY⌝☜" 
 
 // Other
 global.sessionName = 'put your session here'
@@ -39,18 +39,18 @@ global.sp = ''
 
 //messages
 global.mess = {
-    success: 'Yess, c est bon! 😆',
-    admin: 'Uniquement pour les administrateurs aka, tu veux quoi ?!',
-    botAdmin: 'Mettez moi d abord administrateur!',
+    success: 'Yess, Success! 😆',
+    admin: 'This command is for group admins only!',
+    botAdmin: 'This command is for bot admin only!',
     premime: 'Premium Special Features If You Want to Register Type Rent',
-    owner: 'Uniquement pour mon Owner bro!',
-    group: 'Seulement dans les groupes bro!',
-    private: 'Seulement dans les Dm bro!',
-    bot: 'Seulement pour le bot bro!',
-    wait: 'Wait un peu...',
-    linkm: 'Le lien est maintenant où donc?',
-    endLimit: 'Tu as atteint ta limite du jour, Ça se réinitialise chaque 12 heures donc attends.',
-    nsfw: 'Le nsfw n est pas activé ici , demande à ladministrateur d activer.',
+    owner: 'This command is for my owner only',
+    group: 'This command works only in groups!!',
+    private: 'This command works in private chats only!',
+    bot: 'For bot only!',
+    wait: 'Wait.....',
+    linkm: 'Where is the link ',
+    endLimit: 'You have reached your limit for the day, It resets every 12 hours so wait.',
+    nsfw: 'NSFW isn't activated.',
 }
 
 //media target
